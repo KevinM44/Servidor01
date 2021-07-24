@@ -4,7 +4,7 @@ const app = express();
 
 // settings
 app.set('appName', 'firts-Server');  // nombre del servidor
-app.set('views', __dirname + '/views'); // aqui se enlaza conla capeta views
+app.set('views', __dirname + '/views'); // aqui se enlaza con la carpeta views
 app.set('views engine', 'ejs');
 
 // aqui va el contenido de la aplicacion
